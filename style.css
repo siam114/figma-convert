@@ -96,3 +96,33 @@ body {
   color: rgba(27, 43, 65, 0.7);
   line-height: 1.4;
 }
+
+
+
+
+/* mobile responsive */
+
+@media (max-width: 992px){
+    .trust-badge{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .trust-badge-container{
+        width: 50%;
+        flex: none;
+        border-right: none;
+        padding: 16px 0;
+    }
+}
+
+@media (max-width: 576px){
+    .trust-badge{
+        flex-direction: column;
+    }
+
+    .trust-badge-container{
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
