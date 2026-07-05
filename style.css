@@ -97,32 +97,282 @@ body {
   line-height: 1.4;
 }
 
+/* ===============================
+        CATEGORY SECTION
+================================ */
 
+.category-section {
+  max-width: 1280px;
+  margin: 40px auto;
+  padding: 0 20px;
 
-
-/* mobile responsive */
-
-@media (max-width: 992px){
-    .trust-badge{
-        flex-wrap: wrap;
-        padding: 20px;
-    }
-
-    .trust-badge-container{
-        width: 50%;
-        flex: none;
-        border-right: none;
-        padding: 16px 0;
-    }
+  display: grid;
+  grid-template-columns: 2.1fr 1fr;
+  gap: 18px;
+  align-items: stretch;
 }
 
-@media (max-width: 576px){
-    .trust-badge{
-        flex-direction: column;
-    }
+/* ===============================
+          HERO CARD
+================================ */
 
-    .trust-badge-container{
-        width: 100%;
-        justify-content: flex-start;
-    }
+.hero-card {
+  background: #dfeafb;
+  border-radius: 16px;
+  padding: 40px 45px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 390px;
+}
+
+.hero-content {
+  max-width: 260px;
+}
+
+.stock {
+  font-size: 12px;
+  color: #37b24d;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.hero-card h2 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #14161a;
+  margin: 18px 0 14px;
+}
+
+.hero-card p {
+  color: #6b7280;
+  font-size: 15px;
+  margin-bottom: 26px;
+}
+
+.hero-btn {
+  background: #156bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 13px 22px;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 320px;
+  display: block;
+}
+
+/* ===============================
+          RIGHT GRID
+================================ */
+
+.right-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.95fr;
+  grid-template-rows: 186px 186px;
+  gap: 18px;
+  height: 390px;
+}
+
+/* shared tag style */
+
+.tag {
+  display: inline-block;
+  align-self: flex-start;
+  background: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: #333;
+}
+
+/* ===============================
+          GAMING CARD
+================================ */
+
+.gaming-card {
+  grid-row: 1 / span 2;
+  background: linear-gradient(160deg, #eef3ff 0%, #a9c3ff 100%);
+  border-radius: 16px;
+  padding: 18px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gaming-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gaming-image img {
+  width: 190px;
+  display: block;
+}
+
+.gaming-card h4 {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+/* ===============================
+            WATCH CARD
+================================ */
+
+.watch-card {
+  background: linear-gradient(160deg, #dcece1 0%, #b6d3c1 100%);
+  border-radius: 16px;
+  padding: 16px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.watch-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.watch-image {
+  width: 46px;
+  height: 46px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.watch-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.watch-card h4 {
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+/* ===============================
+        HEADPHONE / MODEL CARD
+================================ */
+
+.headphone-card {
+  background: #fbe3d6;
+  border-radius: 16px;
+  padding: 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.headphone-content {
+  width: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headphone-content h4 {
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.headphone-image {
+  display: flex;
+  align-items: flex-end;
+}
+
+.headphone-image img {
+  width: 110px;
+  display: block;
+}
+
+/* ===============================
+        MOBILE
+================================ */
+
+@media (max-width: 768px) {
+  .category-section {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-card {
+    flex-direction: column;
+
+    text-align: center;
+
+    min-height: auto;
+  }
+
+  .hero-image img {
+    width: 220px;
+
+    margin-top: 20px;
+  }
+
+  .right-grid {
+    grid-template-columns: 1fr;
+
+    grid-template-rows: auto;
+
+    height: auto;
+  }
+
+  .gaming-card {
+    grid-row: auto;
+  }
+
+  .watch-card,
+  .headphone-card {
+    min-height: 180px;
+  }
+}
+
+@media (max-width: 576px) {
+  .trust-badge {
+    flex-direction: column;
+  }
+
+  .trust-badge-container {
+    width: 100%;
+    justify-content: flex-start;
+  }
 }
