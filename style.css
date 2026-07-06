@@ -120,15 +120,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  min-height: 390px;
+  height: 390px;
 }
 
 .hero-content {
   max-width: 260px;
 }
 
-.cart-icon{
+.cart-icon {
   width: 20px;
   height: 20px;
 }
@@ -190,7 +189,7 @@ body {
   grid-template-columns: 1.2fr 0.95fr;
   grid-template-rows: 186px 186px;
   gap: 18px;
-  height: 390px;
+  height: 380px;
 }
 
 /* shared tag style */
@@ -290,8 +289,9 @@ body {
 
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
-  overflow: hidden;
+  align-items: center;
+  /* align-items: stretch;
+  overflow: hidden; */
 }
 
 .headphone-content {
@@ -299,6 +299,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 80px;
 }
 
 .headphone-content h4 {
@@ -314,7 +315,8 @@ body {
 }
 
 .headphone-image img {
-  width: 110px;
+  width: 271px;
+  height: 190px;
   display: block;
 }
 
@@ -327,23 +329,18 @@ body {
 
   .hero-card {
     flex-direction: column;
-
     text-align: center;
-
     min-height: auto;
   }
 
   .hero-image img {
     width: 220px;
-
     margin-top: 20px;
   }
 
   .right-grid {
     grid-template-columns: 1fr;
-
     grid-template-rows: auto;
-
     height: auto;
   }
 
