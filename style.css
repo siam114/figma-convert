@@ -41,10 +41,10 @@ body {
 /* trust badge */
 
 .trust-badge {
-  max-width: 1520px;
+  max-width: 1550px;
   width: 100%;
   margin: 0 auto;
-  padding: 24px 40px;
+  /* padding: 24px 40px; */
 
   display: flex;
   align-items: center;
@@ -102,7 +102,7 @@ body {
 ================================ */
 
 .category-section {
-  max-width: 1280px;
+  max-width: 1510px;
   margin: 40px auto;
   padding: 0 20px;
 
@@ -130,6 +130,11 @@ body {
 
 .hero-content {
   max-width: 260px;
+}
+
+.cart-icon{
+  width: 20px;
+  height: 20px;
 }
 
 .stock {
