@@ -411,7 +411,6 @@ body {
   grid-template-columns: 1.2fr 0.95fr;
   grid-template-rows: 186px 186px;
   gap: 18px;
-  height: 500px;
 }
 
 /* shared tag style */
@@ -426,6 +425,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.3px;
   color: #333;
+  margin-top: 7px;
 }
 
 /* ------------------- 3rd card ------------------- */
@@ -435,7 +435,6 @@ body {
   background: linear-gradient(160deg, #eef3ff 0%, #a9c3ff 100%);
   border-radius: 16px;
   padding: 18px;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -449,12 +448,12 @@ body {
 }
 
 .gaming-image img {
-  width: 190px;
+  width: 250px;
   display: block;
 }
 
 .gaming-card h4 {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.4;
   font-weight: 600;
   color: #1a1a2e;
@@ -499,7 +498,7 @@ body {
 }
 
 .watch-card h4 {
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.4;
   font-weight: 600;
   color: #1a1a2e;
@@ -520,15 +519,15 @@ body {
 }
 
 .headphone-content {
-  width: 110px;
+  width: 140px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 80px;
+  gap: 65px;
 }
 
 .headphone-content h4 {
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.4;
   font-weight: 600;
   color: #1a1a2e;
