@@ -547,7 +547,169 @@ body {
 
 /* --------------------- newsletter section ----------------------- */
 
-  
+ .newsletter-section{
+  padding: 80px 20px;
+ }
+ 
+ .testimonials {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+  }
+
+  .eyebrow {
+    color: #2f6fed;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .heading {
+    font-size: 32px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 0 40px;
+  }
+
+  .carousel-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-btn {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #9ca3af;
+    font-size: 18px;
+    flex-shrink: 0;
+    z-index: 2;
+    transition: box-shadow .2s ease, color .2s ease;
+  }
+
+  .nav-btn:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,.08);
+    color: #4b5563;
+  }
+
+  .nav-left { margin-right: 16px; }
+  .nav-right { margin-left: 16px; }
+
+  .highlight-bg {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 640px;
+    max-width: 78%;
+    height: 260px;
+    background: linear-gradient(180deg, #dbe9ff 0%, #b9d3fb 100%);
+    border-radius: 20px;
+    z-index: 0;
+  }
+
+  .cards {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    gap: 20px;
+    padding: 20px 0 40px;
+  }
+
+  .card {
+    background: #fff;
+    border: 1px solid #eef0f3;
+    border-radius: 14px;
+    padding: 24px 22px 60px;
+    width: 300px;
+    position: relative;
+    box-shadow: 0 6px 20px rgba(20, 30, 60, 0.04);
+  }
+
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 14px;
+  }
+
+  .quote-icon {
+    color: #2f6fed;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+    font-style: normal;
+  }
+
+  .rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    color: #1a1a1a;
+    font-weight: 500;
+  }
+
+  .rating .star {
+    color: #f5a623;
+    font-size: 14px;
+  }
+
+  .review-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #4b5563;
+    margin: 0 0 20px;
+  }
+
+  .review-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+  }
+
+  .avatar {
+    position: absolute;
+    bottom: -26px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,.12);
+  }
+
+  .dots {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .dot {
+    width: 16px;
+    height: 3px;
+    border-radius: 2px;
+    background: rgba(255,255,255,.6);
+  }
+
+  .dot.active {
+    background: #2f6fed;
+    width: 20px;
+  } 
 
 /* --------------------- newsletter section end ----------------------- */
 
