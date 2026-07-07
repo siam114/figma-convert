@@ -548,27 +548,26 @@ body {
 /* --------------------- newsletter section ----------------------- */
 
  .newsletter-section{
-  padding: 80px 20px;
+  margin: 80px auto;
  }
  
  .testimonials {
-    max-width: 1100px;
+    max-width: 1500px;
     margin: 0 auto;
     text-align: center;
     position: relative;
   }
 
   .eyebrow {
-    color: #2f6fed;
-    font-weight: 600;
-    font-size: 15px;
+    color: #006AF5;
+    font-size: 20px;
     margin-bottom: 8px;
   }
 
   .heading {
-    font-size: 32px;
-    font-weight: 600;
-    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 500;
+    color: #141414;
     margin: 0 0 40px;
   }
 
@@ -606,13 +605,12 @@ body {
 
   .highlight-bg {
     position: absolute;
-    top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 640px;
+    width: 1006px;
     max-width: 78%;
-    height: 260px;
-    background: linear-gradient(180deg, #dbe9ff 0%, #b9d3fb 100%);
+    height: 450px;
+    background: linear-gradient(180deg, #DFEEFF 0%, #B4D4FF  100%);
     border-radius: 20px;
     z-index: 0;
   }
@@ -623,14 +621,16 @@ body {
     display: flex;
     gap: 20px;
     padding: 20px 0 40px;
+    width: 100%;
+    margin: 0 auto;
   }
 
   .card {
-    background: #fff;
+    background: #ffffffa9;
     border: 1px solid #eef0f3;
     border-radius: 14px;
     padding: 24px 22px 60px;
-    width: 300px;
+    width: 453px;
     position: relative;
     box-shadow: 0 6px 20px rgba(20, 30, 60, 0.04);
   }
@@ -643,6 +643,8 @@ body {
   }
 
   .quote-icon {
+    width:26px;
+    height: 17px;
     color: #2f6fed;
     font-size: 26px;
     font-weight: 700;
@@ -657,6 +659,11 @@ body {
     font-size: 14px;
     color: #1a1a1a;
     font-weight: 500;
+  }
+
+  .star-icon{
+    width: 20px;
+    height: 20px;
   }
 
   .rating .star {
@@ -686,7 +693,6 @@ body {
     height: 52px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #fff;
     box-shadow: 0 2px 8px rgba(0,0,0,.12);
   }
 
@@ -710,6 +716,12 @@ body {
     background: #2f6fed;
     width: 20px;
   } 
+
+  .icon-siam {
+    width: 8px;
+    height: 13px;
+    color: #9E9E9E;
+  }
 
 /* --------------------- newsletter section end ----------------------- */
 
