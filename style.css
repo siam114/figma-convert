@@ -26,7 +26,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 2px solid #ececec;
 }
 
 /* logo */
@@ -55,7 +55,7 @@ body {
   height: 48px;
   display: flex;
   align-items: center;
-  border: 2px solid #006AF5;
+  border: 2px solid #006af5;
   border-radius: 6px;
   overflow: hidden;
 }
@@ -69,7 +69,7 @@ body {
   border-right: 1px solid #ddd;
   font-size: 16px;
   font-weight: 600;
-  color: #192739F0;
+  color: #192739f0;
   background: #fff;
   cursor: pointer;
 }
@@ -87,7 +87,7 @@ body {
   width: 125px;
   height: 100%;
   border: none;
-  background: #006AF5;
+  background: #006af5;
   color: #fff;
   font-size: 14px;
   font-weight: 600;
@@ -120,11 +120,10 @@ body {
 
 .icon span {
   font-size: 15px;
-  color: #192739F5;
+  color: #192739f5;
 }
 
-
-.compare{
+.compare {
   margin-right: 10px;
 }
 
@@ -134,7 +133,7 @@ body {
   right: -50%;
   width: 5px;
   height: 16px;
-  background: #FF5630;
+  background: #ff5630;
   border-radius: 50%;
   color: #fff !important;
   padding: 8px;
@@ -148,13 +147,13 @@ body {
 .divider {
   width: 2px;
   height: 22px;
-  background: #8993A4;
+  background: #8993a4;
 }
 
 .cart-btn {
   height: 44px;
   padding: 0 18px;
-  background: #006AF5;
+  background: #006af5;
   color: #fff;
   border: none;
   border-radius: 3px;
@@ -174,13 +173,71 @@ body {
   height: 16px;
 }
 
-.login span{
+.login span {
   font-size: 16px;
   font-weight: 600;
 }
 
 .crt {
   font-weight: 600;
+}
+
+/* ----------------- menu section ----------------- */
+
+.category-menu {
+  max-width: 1450px;
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-section-2 {
+  max-width: 100%;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.category-menu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 34px;
+}
+
+.category-menu ul li {
+  position: relative;
+}
+
+.category-menu ul li a {
+  text-decoration: none;
+  color: #192434;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.category-menu ul li a:hover {
+  color: #006af5;
+}
+
+.arrow {
+  margin-left: 6px;
+  font-size: 9px;
+  color: #006af5;
+}
+
+.help-number {
+  font-size: 16px;
+  color: #192739f0;
+}
+
+.help-number span {
+  color: #222;
+  font-weight: 500;
 }
 
 /* announcement bar */
@@ -321,7 +378,7 @@ body {
 }
 
 .hero-btn {
-  background: #006AF5;
+  background: #006af5;
   color: #fff;
   border: none;
   border-radius: 8px;
