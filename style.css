@@ -327,7 +327,6 @@ body {
   max-width: 1510px;
   margin: 40px auto;
   padding: 0 20px;
-
   display: grid;
   grid-template-columns: 2.1fr 1fr;
   gap: 18px;
@@ -358,22 +357,22 @@ body {
 
 .stock {
   font-size: 12px;
-  color: #37b24d;
-  font-weight: 600;
+  color: #005FDB;
+  font-weight: 400;
   letter-spacing: 0.3px;
 }
 
 .hero-card h2 {
-  font-size: 46px;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 500;
   line-height: 1.15;
   color: #14161a;
   margin: 18px 0 14px;
 }
 
 .hero-card p {
-  color: #6b7280;
-  font-size: 15px;
+  color: #1B2B41B0;
+  font-size: 16px;
   margin-bottom: 26px;
 }
 
@@ -412,7 +411,7 @@ body {
   grid-template-columns: 1.2fr 0.95fr;
   grid-template-rows: 186px 186px;
   gap: 18px;
-  height: 380px;
+  height: 500px;
 }
 
 /* shared tag style */
@@ -464,15 +463,18 @@ body {
 /* ----------------------- 4th card ----------------------- */
 
 .watch-card {
-  background: linear-gradient(160deg, #dcece1 0%, #b6d3c1 100%);
+  /* background: linear-gradient(160deg, #dcece1 0%, #b6d3c1 100%); */
+  background-image: url("/image/watch.jpg");
   border-radius: 16px;
   padding: 16px;
   overflow: hidden;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
 
 .watch-top {
   display: flex;
